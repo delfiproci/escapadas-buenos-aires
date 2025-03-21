@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Escapadas cerca de Buenos Aires</title>
+  <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+
+  <!-- Encabezado -->
+  <header>
+    <h1>Escapadas de Fin de Semana cerca de Buenos Aires</h1>
+  </header>
+
+  <!-- Navegación -->
+  <nav>
+    <ul>
+      <li><a href="#destinos">Destinos</a></li>
+      <li><a href="#recomendaciones">Recomendaciones</a></li>
+      <li><a href="#contacto">Contacto</a></li>
+    </ul>
+  </nav>
+
+  <!-- Sección principal -->
+  <main>
+
+    <!-- Artículos -->
+    <section id="destinos">
+      <article>
+        <h2>Chascomús: tranquilidad y naturaleza</h2>
+        <p>A solo dos horas de la ciudad, Chascomús ofrece un entorno ideal para relajarse. Podés recorrer su laguna, disfrutar de paseos en bicicleta o hacer un picnic al aire libre.</p>
+      </article>
+
+      <article>
+        <h2>Tigre: aventura y cultura</h2>
+        <p>Un destino clásico del conurbano norte. Navegar por el Delta, visitar el Puerto de Frutos y recorrer el Museo de Arte son algunas de las actividades más elegidas por quienes escapan de la rutina.</p>
+      </article>
+    </section>
+
+    <!-- Lista -->
+    <section id="recomendaciones">
+      <h3>Consejos para disfrutar tu escapada:</h3>
+      <ul>
+        <li>Llevá ropa cómoda y repelente para insectos.</li>
+        <li>Chequeá el pronóstico del clima antes de salir.</li>
+        <li>Reservá alojamiento o actividades con anticipación.</li>
+      </ul>
+    </section>
+
+    <!-- Imagen -->
+    <section>
+      <h3>Un paisaje típico del Delta</h3>
+      <img id="imagenEscapada" src="assets/delta-tigre.webp" alt="Delta del Tigre">
+    </section>
+
+    <!-- Interacción con Java -->
+    <section>
+      <h3>¿Querés interactuar con la página?</h3>
+      <button onclick="mostrarAlerta()">Mostrar mensaje</button>
+      <button onclick="cambiarFondo()">Cambiar fondo</button>
+      <button onclick="toggleImagen()">Mostrar / Ocultar imagen</button>
+    </section>    
+
+  </main>
+
+  <!-- Pie de página -->
+  <footer>
+    <p>&copy; 2025 - Sitio creado por Delfina Procicchiani Pazos. Información inspirada en experiencias reales de escapadas. Todos los derechos reservados.</p>
+  </footer>
+  <script src="script.js"></script>
+
+</body>
+</html>
