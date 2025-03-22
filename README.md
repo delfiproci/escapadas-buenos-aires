@@ -1,11 +1,10 @@
 # escapadas-buenos-aires
-# Escapadas de fin de semana cerca de Buenos Aires 🧳🌿
+# Escapadas de fin de semana cerca de Buenos Aires 
 
 Este es un proyecto realizado para la materia **Contenidos y Creatividad III**, como parte del primer trabajo práctico del cuatrimestre.  
 El objetivo fue repasar y aplicar conocimientos de HTML, CSS y JavaScript, y publicar un sitio web estático en GitHub Pages.
 
-Sitio publicado
-Enlace: [https://TU_USUARIO.github.io/escapadas-buenos-aires/](https://TU_USUARIO.github.io/escapadas-buenos-aires/)  
+Enlace del sitio: https://delfiproci.github.io/escapadas-buenos-aires/  
 
 ## Estructura del proyecto
 - `index.html`: Página principal del sitio.
